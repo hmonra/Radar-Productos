@@ -72,7 +72,7 @@ def telegram_bot_sendtext9():
 # AVISOS CANAL OFERTAS TOP
 def telegram_bot_ofertastop():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -88,7 +88,7 @@ def telegram_bot_ofertastop():
 # AVISOS CANAL DEALS TOP
 def telegram_bot_dealstop():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -104,7 +104,7 @@ def telegram_bot_dealstop():
 # AVISOS CANAL CHOLLOS TOP
 def telegram_bot_chollostop():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -123,7 +123,7 @@ def telegram_bot_chollostop():
 # AVISOS CANALES POR CATEGORIAS
 def telegram_bot_perifericos():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -138,7 +138,7 @@ def telegram_bot_perifericos():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_discosduros():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -153,7 +153,7 @@ def telegram_bot_discosduros():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_disipadores():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -168,7 +168,7 @@ def telegram_bot_disipadores():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_psus():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -183,7 +183,7 @@ def telegram_bot_psus():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_impresoras():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -198,7 +198,7 @@ def telegram_bot_impresoras():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_portatiles():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -213,7 +213,7 @@ def telegram_bot_portatiles():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_tvs():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -228,7 +228,7 @@ def telegram_bot_tvs():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_cajastorres():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -243,7 +243,7 @@ def telegram_bot_cajastorres():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_procesadores():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -258,7 +258,7 @@ def telegram_bot_procesadores():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_consolas():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -273,7 +273,7 @@ def telegram_bot_consolas():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_smartphones():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -288,7 +288,7 @@ def telegram_bot_smartphones():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_monitores():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -303,7 +303,7 @@ def telegram_bot_monitores():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_tarjetasgraficas():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -318,7 +318,7 @@ def telegram_bot_tarjetasgraficas():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_placasbase():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -333,7 +333,7 @@ def telegram_bot_placasbase():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_electrodomesticos():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -348,7 +348,7 @@ def telegram_bot_electrodomesticos():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_sillasgaming():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -363,7 +363,7 @@ def telegram_bot_sillasgaming():
     bot.send_message(bot_chatid, combo_producto, parse_mode="html")
 def telegram_bot_fotografia():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
@@ -394,7 +394,7 @@ def telegram_bot_errorprecio():
 # BOT TELEGRAM DESCUENTOS
 def telegram_bot_sendtext3():
     # enlace_compra_inicial = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
-    # enlace_compra = "https://cuty.io/quick?token=c785096224eb96f06ba1365c2&url=" + enlace_compra_inicial
+    # enlace_compra = "https://cuty.io/quick?token=CUTY_API_TOKEN&url=" + enlace_compra_inicial
     enlace_compra = "https://www.pccomponentes.com/cart/addItem/" + codigo_articulo
     bot_token = 'TOKEN DEL BOT' # AÑADIMOS TOKEN DE NUESTRO BOT DE AVISOS
     bot_chatid = 'ID DEL CHAT' # AÑADIMOS ID DEL CHAT DEL CANAL CORRESPONDIENTE
